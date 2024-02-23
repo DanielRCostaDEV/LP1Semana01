@@ -46,6 +46,15 @@ namespace VariousTypes
 
             string ht = "\u2660";
             Console.WriteLine(ht);
+
+            float fl = 42;
+            Console.WriteLine($"The value of float is {fl}" + 'f');
+
+            double db = 1.2345678901234567e+300;
+            Console.WriteLine($"The value of double is {db}" + ';');
+
+            decimal de = 1342845;
+            Console.WriteLine($"The value of decimal is {de}" + 'm');
             
         }
     }
