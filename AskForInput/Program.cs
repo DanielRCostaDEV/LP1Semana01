@@ -16,6 +16,7 @@ namespace AskForInput
             string tf = Console.ReadLine();
             float stf = float.Parse(tf);
             
+            //Total of the 2 numbers
             float total = sint + stf;
             Console.WriteLine($"The total of {sint} + {sint} is {total}");
         }
