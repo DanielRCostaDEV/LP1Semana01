@@ -55,7 +55,12 @@ namespace VariousTypes
 
             decimal de = 1342845;
             Console.WriteLine($"The value of decimal is {de}" + 'm');
-            
+
+            bool dinis = false;
+            Console.WriteLine(dinis);
+
+            bool bruno = 5 > 3;
+            Console.WriteLine($"{bruno}");
         }
     }
 }
