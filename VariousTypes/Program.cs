@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Reflection.PortableExecutable;
+using System.Text;
 
 namespace VariousTypes
 {
@@ -6,6 +8,8 @@ namespace VariousTypes
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             sbyte sb = 8;
             Console.WriteLine($"The value of sbyte is {sb} ");
             
@@ -32,6 +36,16 @@ namespace VariousTypes
             
             char ch = 'N';
             Console.WriteLine($"The value of char is {ch} ");
+
+
+            string ussr = "\u262d";
+            Console.WriteLine(ussr);
+
+            string pl = "\u2708";
+            Console.WriteLine(pl);
+
+            string ht = "\u2660";
+            Console.WriteLine(ht);
             
         }
     }
