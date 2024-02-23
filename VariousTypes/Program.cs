@@ -38,14 +38,14 @@ namespace VariousTypes
             Console.WriteLine($"The value of char is {ch} ");
 
 
-            string ussr = "\u262d";
-            Console.WriteLine(ussr);
+            char ussr = '\u262d';
+            Console.WriteLine($"{ussr}");
 
-            string pl = "\u2708";
-            Console.WriteLine(pl);
+            char pl = '\u2708';
+            Console.WriteLine($"{pl}");
 
-            string ht = "\u2660";
-            Console.WriteLine(ht);
+            char ht = '\u2660';
+            Console.WriteLine($"{ht}");
 
             float fl = 42;
             Console.WriteLine($"The value of float is {fl}" + 'f');
